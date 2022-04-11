@@ -87,7 +87,7 @@
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (124 ms)
+  ✕ renders the course name somewhere (152 ms)
 
   ● renders the course name somewhere
 
@@ -238,5 +238,5 @@ All files          |   89.47 |    64.28 |   71.42 |   89.47 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.099 s
+Time:        2.617 s
 Ran all test suites.
