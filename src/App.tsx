@@ -18,7 +18,7 @@ function App(): JSX.Element {
 
     const addPlan = () => {
         const newPlan: Plan = {
-            id: plans.length,
+            id: plans.length === 0 ? 0 : plans[plans.length - 1].id + 1,
             title: "New Plan",
             description: "Add description",
             Years: []
