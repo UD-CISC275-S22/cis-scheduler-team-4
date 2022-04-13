@@ -2,92 +2,8 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-  console.warn
-    The component styled.section with the id of "sc-bczRLJ" has been created dynamically.
-    You may see this warning because you've called styled inside another component.
-    To resolve this only create new StyledComponents outside of any render method and function component.
-
-      14 |     flipSearch: () => void;
-      15 | }) => {
-    > 16 |     const Nav = styled.section`
-         |                                ^
-      17 |         background-color: var(--tertiary-color);
-      18 |         padding-top: 10px;
-      19 |         padding-bottom: 10px;
-
-      at warningSeen (node_modules/styled-components/src/utils/checkDynamicCreation.js:54:15)
-      at tag (node_modules/styled-components/src/utils/createWarnTooManyClasses.js:10:10)
-      at Function.s [as section] (node_modules/styled-components/src/constructors/constructWithOptions.js:24:48)
-      at NavBar (src/NavBar.tsx:16:32)
-      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
-      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
-
-  console.warn
-    The component styled.section with the id of "sc-gsnTZi" has been created dynamically.
-    You may see this warning because you've called styled inside another component.
-    To resolve this only create new StyledComponents outside of any render method and function component.
-
-      4 |
-      5 | export const LandingPage = ({ flipLanding }: { flipLanding: () => void }) => {
-    > 6 |     const Hero = styled.section`
-        |                                 ^
-      7 |         background-color: var(--primary-color);
-      8 |         padding-top: 15vh;
-      9 |         padding-bottom: 15vh;
-
-      at warningSeen (node_modules/styled-components/src/utils/checkDynamicCreation.js:54:15)
-      at tag (node_modules/styled-components/src/utils/createWarnTooManyClasses.js:10:10)
-      at Function.s [as section] (node_modules/styled-components/src/constructors/constructWithOptions.js:24:48)
-      at LandingPage (src/LandingPage.tsx:6:33)
-      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
-      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
-
-  console.warn
-    The component styled.h1 with the id of "sc-dkzDqf" has been created dynamically.
-    You may see this warning because you've called styled inside another component.
-    To resolve this only create new StyledComponents outside of any render method and function component.
-
-      11 |     `;
-      12 |
-    > 13 |     const Title = styled.h1`
-         |                             ^
-      14 |         font-size: 3em;
-      15 |         text-align: center;
-      16 |     `;
-
-      at warningSeen (node_modules/styled-components/src/utils/checkDynamicCreation.js:54:15)
-      at tag (node_modules/styled-components/src/utils/createWarnTooManyClasses.js:10:10)
-      at Function.s [as h1] (node_modules/styled-components/src/constructors/constructWithOptions.js:24:48)
-      at LandingPage (src/LandingPage.tsx:13:29)
-      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
-      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
-
-  console.warn
-    The component styled.h3 with the id of "sc-hKMtZM" has been created dynamically.
-    You may see this warning because you've called styled inside another component.
-    To resolve this only create new StyledComponents outside of any render method and function component.
-
-      16 |     `;
-      17 |
-    > 18 |     const SubTitle = styled.h3`
-         |                                ^
-      19 |         font-size: 1.5rem;
-      20 |         text-align: center;
-      21 |         line-height: 2.5rem;
-
-      at warningSeen (node_modules/styled-components/src/utils/checkDynamicCreation.js:54:15)
-      at tag (node_modules/styled-components/src/utils/createWarnTooManyClasses.js:10:10)
-      at Function.s [as h3] (node_modules/styled-components/src/constructors/constructWithOptions.js:24:48)
-      at LandingPage (src/LandingPage.tsx:18:32)
-      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
-      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
-
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (152 ms)
+  ✕ renders the course name somewhere (81 ms)
 
   ● renders the course name somewhere
 
@@ -100,35 +16,54 @@ FAIL src/App.test.tsx
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
           [36m<section[39m
-            [33mclass[39m=[32m"sc-bczRLJ dfUpvJ"[39m
+            [33mclass[39m=[32m"sc-hKMtZM hxhuru"[39m
           [36m>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-eCYdqJ cWIIhL"[39m
             [36m>[39m
-              [0mGet Started[0m
-            [36m</button>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mGet Started[0m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-eCYdqJ cWIIhL"[39m
+              [33mstyle[39m=[32m"justify-content: center;"[39m
             [36m>[39m
-              [0mSearch Courses[0m
-            [36m</button>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"sc-jSMfEi cSXPRO"[39m
+              [36m>[39m
+                [0mHome Page[0m
+              [36m</h2>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-eCYdqJ cWIIhL"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mstyle[39m=[32m"margin-left: auto; display: block;"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSearch Courses[0m
+              [36m</button>[39m
+            [36m</div>[39m
           [36m</section>[39m
           [36m<div[39m
             [33mstyle[39m=[32m"display: block;"[39m
           [36m>[39m
             [36m<div>[39m
               [36m<section[39m
-                [33mclass[39m=[32m"sc-gsnTZi epiGJH"[39m
+                [33mclass[39m=[32m"sc-bczRLJ kJuuFJ"[39m
               [36m>[39m
                 [36m<h1[39m
-                  [33mclass[39m=[32m"sc-dkzDqf iwjsjT"[39m
+                  [33mclass[39m=[32m"sc-gsnTZi QnIJE"[39m
                 [36m>[39m
                   [0mUD CISC Course Schedule Planner[0m
                 [36m</h1>[39m
                 [36m<h3[39m
-                  [33mclass[39m=[32m"sc-hKMtZM gKyXBz"[39m
+                  [33mclass[39m=[32m"sc-dkzDqf FRURY"[39m
                 [36m>[39m
                   [0mby[0m
                   [36m<br />[39m
@@ -183,8 +118,19 @@ FAIL src/App.test.tsx
             [36m>[39m
               [36m<div>[39m
                 [36m<p>[39m
-                  [0mYou are on the PlansView Page[0m
+                  [0mYou are on the Planner Page[0m
                 [36m</p>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"btn btn-primary"[39m
+                  [33mtype[39m=[32m"button"[39m
+                [36m>[39m
+                  [0m+ Add Plan[0m
+                [36m</button>[39m
+                [36m<div>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"vstack gap-3"[39m
+                  [36m/>[39m
+                [36m</div>[39m
               [36m</div>[39m
             [36m</div>[39m
           [36m</div>[39m
@@ -219,24 +165,28 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
--------------------|---------|----------|---------|---------|-------------------
-File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------------|---------|----------|---------|---------|-------------------
-All files          |   89.47 |    64.28 |   71.42 |   89.47 |                   
- src               |   89.47 |    64.28 |   71.42 |   89.47 |                   
-  App.tsx          |   71.42 |     62.5 |   33.33 |   71.42 | 18,22             
-  CourseSearch.tsx |     100 |      100 |     100 |     100 |                   
-  LandingPage.tsx  |     100 |      100 |     100 |     100 |                   
-  NavBar.tsx       |     100 |    66.66 |     100 |     100 | 27-31             
-  PlansView.tsx    |     100 |      100 |     100 |     100 |                   
- src/interfaces    |       0 |        0 |       0 |       0 |                   
-  Course.ts        |       0 |        0 |       0 |       0 |                   
-  Plan.ts          |       0 |        0 |       0 |       0 |                   
-  Semester.ts      |       0 |        0 |       0 |       0 |                   
-  Year.ts          |       0 |        0 |       0 |       0 |                   
--------------------|---------|----------|---------|---------|-------------------
+-------------------|---------|----------|---------|---------|----------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
+-------------------|---------|----------|---------|---------|----------------------
+All files          |      54 |    41.66 |   26.08 |    55.1 |                      
+ src               |   52.94 |       50 |    12.5 |   56.25 |                      
+  App.tsx          |   52.94 |       50 |    12.5 |   56.25 | 21-27,31-32,37,41,46 
+ src/components    |   54.54 |    35.71 |   33.33 |   54.54 |                      
+  CourseSearch.tsx |     100 |      100 |     100 |     100 |                      
+  LandingPage.tsx  |     100 |      100 |     100 |     100 |                      
+  NavBar.tsx       |    62.5 |    41.66 |      50 |    62.5 | 42-45                
+  PlanEdit.tsx     |   11.11 |      100 |       0 |   11.11 | 16-63                
+  PlanList.tsx     |   66.66 |      100 |      50 |   66.66 | 29                   
+  PlanView.tsx     |      25 |        0 |       0 |      25 | 17-23                
+  Planner.tsx      |     100 |      100 |     100 |     100 |                      
+ src/interfaces    |       0 |        0 |       0 |       0 |                      
+  Course.ts        |       0 |        0 |       0 |       0 |                      
+  Plan.ts          |       0 |        0 |       0 |       0 |                      
+  Semester.ts      |       0 |        0 |       0 |       0 |                      
+  Year.ts          |       0 |        0 |       0 |       0 |                      
+-------------------|---------|----------|---------|---------|----------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.617 s
+Time:        3.163 s
 Ran all test suites.
