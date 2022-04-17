@@ -2,17 +2,17 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/App.test.tsx (6.978 s)
-  ✓ renders the course name somewhere (62 ms)
+PASS src/App.test.tsx (5.855 s)
+  ✓ renders the course name somewhere (83 ms)
 
 -------------------|---------|----------|---------|---------|-----------------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s           
 -------------------|---------|----------|---------|---------|-----------------------------
-All files          |   72.22 |    58.33 |      40 |   71.64 |                             
- src               |   79.48 |    68.18 |      30 |   79.41 |                             
-  App.tsx          |   79.48 |    68.18 |      30 |   79.41 | 108-114,118-119,124,128,133 
- src/components    |   63.63 |    42.85 |   46.66 |   63.63 |                             
-  CourseSearch.tsx |     100 |      100 |     100 |     100 |                             
+All files          |   45.71 |    28.75 |   27.02 |   45.11 |                             
+ src               |      80 |    68.18 |      30 |      80 |                             
+  App.tsx          |      80 |    68.18 |      30 |      80 | 110-116,120-121,126,130,135 
+ src/components    |      32 |    13.79 |   25.92 |   32.65 |                             
+  CourseSearch.tsx |   18.84 |     4.54 |    7.69 |    19.4 | 41-46,51-56,61-137,148-259  
   LandingPage.tsx  |     100 |      100 |     100 |     100 |                             
   NavBar.tsx       |    62.5 |    41.66 |      50 |    62.5 | 42-45                       
   PlanEdit.tsx     |   11.11 |      100 |       0 |   11.11 | 16-63                       
@@ -29,5 +29,5 @@ All files          |   72.22 |    58.33 |      40 |   71.64 |
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        7.654 s
+Time:        6.517 s
 Ran all test suites.
