@@ -3,15 +3,15 @@
 > react-scripts test "--coverage"
 
 PASS src/test/CourseSearch.test.tsx
-PASS src/test/App.test.tsx (5.946 s)
+PASS src/test/App.test.tsx (6.397 s)
 PASS src/test/LandingPage.test.tsx
 -------------------|---------|----------|---------|---------|-----------------------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                 
 -------------------|---------|----------|---------|---------|-----------------------------------
-All files          |   62.24 |    72.11 |   33.78 |   61.37 |                                   
+All files          |   58.37 |    66.96 |   32.89 |   57.42 |                                   
  src               |   85.71 |    83.33 |      50 |   86.48 |                                   
   App.tsx          |   85.71 |    83.33 |      50 |   86.48 | 118-124,128-129,134               
- src/components    |   54.96 |    68.75 |   31.25 |   54.36 |                                   
+ src/components    |    50.6 |     62.5 |    30.3 |      50 |                                   
   CourseList.tsx   |   33.33 |      100 |       0 |   33.33 | 15-19                             
   CourseSearch.tsx |   79.71 |    86.36 |     100 |    79.1 | 68-70,78,85,89-91,120-122,131-133 
   CourseView.tsx   |   33.33 |      100 |       0 |   33.33 | 14-18                             
@@ -22,7 +22,7 @@ All files          |   62.24 |    72.11 |   33.78 |   61.37 |
   PlanView.tsx     |      25 |       25 |      10 |      25 | 26-73                             
   Planner.tsx      |     100 |      100 |     100 |     100 |                                   
   SemesterList.tsx |   33.33 |        0 |       0 |   33.33 | 18-23                             
-  SemesterView.tsx |    7.14 |        0 |       0 |    7.14 | 18-92                             
+  SemesterView.tsx |     3.7 |        0 |       0 |     3.7 | 18-128                            
   YearList.tsx     |   33.33 |      100 |       0 |   33.33 | 18-22                             
   YearView.tsx     |    8.33 |        0 |       0 |    8.33 | 19-91                             
  src/data          |     100 |      100 |     100 |     100 |                                   
@@ -38,5 +38,5 @@ All files          |   62.24 |    72.11 |   33.78 |   61.37 |
 Test Suites: 3 passed, 3 total
 Tests:       17 passed, 17 total
 Snapshots:   0 total
-Time:        9.516 s
+Time:        10.006 s
 Ran all test suites.
