@@ -3,44 +3,47 @@
 > react-scripts test "--coverage"
 
 PASS src/test/CourseSearch.test.tsx
-PASS src/test/App.test.tsx (7.013 s)
+PASS src/test/App.test.tsx (7.328 s)
 PASS src/test/ViewCourseModal.test.tsx
 PASS src/test/LandingPage.test.tsx
--------------------------|---------|----------|---------|---------|--------------------------------------------------------------
-File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                            
--------------------------|---------|----------|---------|---------|--------------------------------------------------------------
-All files                |   60.13 |    63.88 |   37.25 |   59.21 |                                                              
- src                     |   89.09 |    83.33 |   64.28 |   89.79 |                                                              
-  App.tsx                |   89.09 |    83.33 |   64.28 |   89.79 | 137-143,147-148,153                                          
- src/components          |   52.78 |       60 |   32.95 |   52.17 |                                                              
-  CourseList.tsx         |   33.33 |      100 |       0 |   33.33 | 15-19                                                        
-  CourseModalContent.tsx |   83.33 |       75 |     100 |   82.35 | 24,33-34                                                     
-  CourseSearch.tsx       |   70.11 |       75 |      75 |   69.41 | 85-87,95,102,106-108,137-139,148-150,155-161,190-191,205-319 
-  CourseView.tsx         |   33.33 |      100 |       0 |   33.33 | 14-18                                                        
-  EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                           
-  LandingPage.tsx        |     100 |      100 |     100 |     100 |                                                              
-  NavBar.tsx             |     100 |      100 |     100 |     100 |                                                              
-  PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-63                                                        
-  PlanList.tsx           |   54.54 |       50 |      50 |   54.54 | 30-33,67,104                                                 
-  PlanView.tsx           |      25 |       25 |      10 |      25 | 26-73                                                        
-  Planner.tsx            |     100 |      100 |     100 |     100 |                                                              
-  SemesterList.tsx       |   33.33 |        0 |       0 |   33.33 | 18-23                                                        
-  SemesterView.tsx       |     3.7 |        0 |       0 |     3.7 | 18-128                                                       
-  ViewCourseModal.tsx    |      90 |      100 |      75 |      90 | 29                                                           
-  YearList.tsx           |   33.33 |      100 |       0 |   33.33 | 18-22                                                        
-  YearView.tsx           |    8.33 |        0 |       0 |    8.33 | 19-91                                                        
- src/data                |     100 |      100 |     100 |     100 |                                                              
-  TestData.ts            |     100 |      100 |     100 |     100 |                                                              
- src/interfaces          |       0 |        0 |       0 |       0 |                                                              
-  Course.ts              |       0 |        0 |       0 |       0 |                                                              
-  Plan.ts                |       0 |        0 |       0 |       0 |                                                              
-  Requirement.ts         |       0 |        0 |       0 |       0 |                                                              
-  Semester.ts            |       0 |        0 |       0 |       0 |                                                              
-  Year.ts                |       0 |        0 |       0 |       0 |                                                              
--------------------------|---------|----------|---------|---------|--------------------------------------------------------------
+-------------------------|---------|----------|---------|---------|-------------------------------------------
+File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                         
+-------------------------|---------|----------|---------|---------|-------------------------------------------
+All files                |   60.53 |    64.86 |   38.31 |   59.93 |                                           
+ src                     |   89.09 |    83.33 |   64.28 |   89.79 |                                           
+  App.tsx                |   89.09 |    83.33 |   64.28 |   89.79 | 137-143,147-148,153                       
+ src/components          |   53.52 |    61.29 |    34.4 |   53.33 |                                           
+  CourseList.tsx         |   33.33 |      100 |       0 |   33.33 | 15-19                                     
+  CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 62-74                                     
+  CourseModalContent.tsx |   83.33 |       75 |     100 |   82.35 | 24,33-34                                  
+  CourseSearch.tsx       |    66.1 |    78.57 |   85.71 |    66.1 | 47-49,57,64,68-70,102-104,113-115,120-126 
+  CourseSearchForm.tsx   |   73.91 |       50 |   66.66 |   73.91 | 73-74,91-214                              
+  CourseView.tsx         |   33.33 |      100 |       0 |   33.33 | 14-18                                     
+  EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                        
+  LandingPage.tsx        |     100 |      100 |     100 |     100 |                                           
+  NavBar.tsx             |     100 |      100 |     100 |     100 |                                           
+  PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-63                                     
+  PlanList.tsx           |   54.54 |       50 |      50 |   54.54 | 30-33,67,104                              
+  PlanView.tsx           |      25 |       25 |      10 |      25 | 26-73                                     
+  Planner.tsx            |     100 |      100 |     100 |     100 |                                           
+  SemesterList.tsx       |   33.33 |        0 |       0 |   33.33 | 18-23                                     
+  SemesterView.tsx       |     3.7 |        0 |       0 |     3.7 | 18-128                                    
+  ViewCourseModal.tsx    |      90 |      100 |      75 |      90 | 29                                        
+  YearList.tsx           |   33.33 |      100 |       0 |   33.33 | 18-22                                     
+  YearView.tsx           |    8.33 |        0 |       0 |    8.33 | 19-91                                     
+ src/data                |     100 |      100 |     100 |     100 |                                           
+  TestData.ts            |     100 |      100 |     100 |     100 |                                           
+ src/interfaces          |       0 |        0 |       0 |       0 |                                           
+  Course.ts              |       0 |        0 |       0 |       0 |                                           
+  Plan.ts                |       0 |        0 |       0 |       0 |                                           
+  Requirement.ts         |       0 |        0 |       0 |       0 |                                           
+  SearchParam.ts         |       0 |        0 |       0 |       0 |                                           
+  Semester.ts            |       0 |        0 |       0 |       0 |                                           
+  Year.ts                |       0 |        0 |       0 |       0 |                                           
+-------------------------|---------|----------|---------|---------|-------------------------------------------
 
 Test Suites: 4 passed, 4 total
 Tests:       22 passed, 22 total
 Snapshots:   0 total
-Time:        11.099 s
+Time:        11.618 s
 Ran all test suites.
