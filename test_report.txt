@@ -3,20 +3,20 @@
 > react-scripts test "--coverage"
 
 PASS src/test/CourseSearch.test.tsx
-PASS src/test/App.test.tsx (7.328 s)
+PASS src/test/App.test.tsx (6.442 s)
 PASS src/test/ViewCourseModal.test.tsx
 PASS src/test/LandingPage.test.tsx
 -------------------------|---------|----------|---------|---------|-------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                         
 -------------------------|---------|----------|---------|---------|-------------------------------------------
 All files                |   60.53 |    64.86 |   38.31 |   59.93 |                                           
- src                     |   89.09 |    83.33 |   64.28 |   89.79 |                                           
-  App.tsx                |   89.09 |    83.33 |   64.28 |   89.79 | 137-143,147-148,153                       
- src/components          |   53.52 |    61.29 |    34.4 |   53.33 |                                           
+ src                     |   86.36 |    83.33 |   54.54 |   87.17 |                                           
+  App.tsx                |   86.36 |    83.33 |   54.54 |   87.17 | 121-127,131-132,137                       
+ src/components          |   55.55 |    61.29 |   36.45 |    55.2 |                                           
   CourseList.tsx         |   33.33 |      100 |       0 |   33.33 | 15-19                                     
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 62-74                                     
   CourseModalContent.tsx |   83.33 |       75 |     100 |   82.35 | 24,33-34                                  
-  CourseSearch.tsx       |    66.1 |    78.57 |   85.71 |    66.1 | 47-49,57,64,68-70,102-104,113-115,120-126 
+  CourseSearch.tsx       |   71.42 |    78.57 |      90 |   71.01 | 63-65,73,80,84-86,118-120,129-131,136-142 
   CourseSearchForm.tsx   |   73.91 |       50 |   66.66 |   73.91 | 73-74,91-214                              
   CourseView.tsx         |   33.33 |      100 |       0 |   33.33 | 14-18                                     
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                        
@@ -45,5 +45,5 @@ All files                |   60.53 |    64.86 |   38.31 |   59.93 |
 Test Suites: 4 passed, 4 total
 Tests:       22 passed, 22 total
 Snapshots:   0 total
-Time:        11.618 s
+Time:        10.811 s
 Ran all test suites.
