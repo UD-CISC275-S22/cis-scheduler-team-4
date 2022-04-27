@@ -2,9 +2,9 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx
+PASS src/test/CourseSearch.test.tsx (7.484 s)
 PASS src/test/ViewCourseModal.test.tsx
-PASS src/test/App.test.tsx (5.726 s)
+PASS src/test/App.test.tsx
 FAIL src/test/SemesterView.test.tsx
   ● User should be able to delete semesters › You can delete a semester
 
@@ -204,55 +204,59 @@ FAIL src/test/PlanList.test.tsx
     Ignored nodes: comments, <script />, <style />
     [36m<body>[39m
       [36m<div>[39m
-        [36m<div>[39m
-          [36m<div>[39m
+        [36m<section>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"sc-crXcEl beNuPj"[39m
+          [36m>[39m
+            [36m<div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"vstack gap-3"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+                [36m>[39m
+                  [36m<div>[39m
+                    [36m<h1>[39m
+                      [0mDefault Plan[0m
+                    [36m</h1>[39m
+                    [36m<i[39m
+                      [33mclass[39m=[32m"d-block"[39m
+                    [36m>[39m
+                      [0mDescription: [0m
+                      [0mDefault Plan for CISC Majors[0m
+                    [36m</i>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"float-right mt-2 btn btn-primary btn-sm"[39m
+                      [33mtype[39m=[32m"button"[39m
+                    [36m>[39m
+                      [0mEdit[0m
+                    [36m</button>[39m
+                  [36m</div>[39m
+                  [36m<div[39m
+                    [33mstyle[39m=[32m"display: flex; justify-content: center;"[39m
+                  [36m>[39m
+                    [36m<span[39m
+                      [33mstyle[39m=[32m"font-size: 12px; font-style: italic; cursor: pointer;"[39m
+                    [36m>[39m
+                      [0mClick to expand[0m
+                    [36m</span>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"m-2 btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mAdd Plan[0m
+              [36m</button>[39m
+            [36m</div>[39m
             [36m<div[39m
               [33mclass[39m=[32m"vstack gap-3"[39m
             [36m>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
-              [36m>[39m
-                [36m<div>[39m
-                  [36m<h1>[39m
-                    [0mDefault Plan[0m
-                  [36m</h1>[39m
-                  [36m<i[39m
-                    [33mclass[39m=[32m"d-block"[39m
-                  [36m>[39m
-                    [0mDescription: [0m
-                    [0mDefault Plan for CISC Majors[0m
-                  [36m</i>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"float-right mt-2 btn btn-primary btn-sm"[39m
-                    [33mtype[39m=[32m"button"[39m
-                  [36m>[39m
-                    [0mEdit[0m
-                  [36m</button>[39m
-                [36m</div>[39m
-                [36m<div[39m
-                  [33mstyle[39m=[32m"display: flex; justify-content: center;"[39m
-                [36m>[39m
-                  [36m<span[39m
-                    [33mstyle[39m=[32m"font-size: 12px; font-style: italic; cursor: pointer;"[39m
-                  [36m>[39m
-                    [0mClick to expand[0m
-                  [36m</span>[39m
-                [36m</div>[39m
-              [36m</div>[39m
+              [36m<div />[39m
             [36m</div>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"m-2 btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mAdd Plan[0m
-            [36m</button>[39m
           [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"vstack gap-3"[39m
-          [36m>[39m
-            [36m<div />[39m
-          [36m</div>[39m
-        [36m</div>[39m
+        [36m</section>[39m
       [36m</div>[39m
     [36m</body>[39m
 
@@ -286,7 +290,7 @@ FAIL src/test/PlanView.test.tsx
           at div
           at YearList (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/components/YearList.tsx:8:5)
           at span
-          at section
+          at div
           at PlanView (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/components/PlanView.tsx:11:5)
 
       20 |     return (
@@ -313,7 +317,7 @@ FAIL src/test/PlanView.test.tsx
     Ignored nodes: comments, <script />, <style />
     [36m<body>[39m
       [36m<div>[39m
-        [36m<section>[39m
+        [36m<div>[39m
           [36m<h1>[39m
             [0mDefault Plan[0m
           [36m</h1>[39m
@@ -908,7 +912,7 @@ FAIL src/test/PlanView.test.tsx
               [0mClear all semesters[0m
             [36m</button>[39m
           [36m</span>[39m
-        [36m</section>[39m
+        [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
 
@@ -2735,21 +2739,21 @@ FAIL src/test/YearView.test.tsx
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                              
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------
-All files                |   70.05 |    65.24 |   60.44 |   69.74 |                                                                
- src                     |   77.77 |       70 |   53.84 |   77.55 |                                                                
-  App.tsx                |   77.77 |       70 |   53.84 |   77.55 | 84-93,101,117-123,127-128,133                                  
- src/components          |    68.4 |    64.58 |   61.15 |   68.19 |                                                                
+All files                |   70.21 |    65.24 |   60.44 |   69.91 |                                                                
+ src                     |   78.18 |       70 |   53.84 |      78 |                                                                
+  App.tsx                |   78.18 |       70 |   53.84 |      78 | 90-99,107,123-129,133-134,139                                  
+ src/components          |    68.5 |    64.58 |   61.15 |    68.3 |                                                                
   CourseList.tsx         |     100 |      100 |     100 |     100 |                                                                
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 63-75                                                          
   CourseModalContent.tsx |   83.33 |       75 |     100 |   82.35 | 24,33-34                                                       
-  CourseSearch.tsx       |   73.73 |       74 |   94.11 |   73.46 | 28,42,53,90-92,119-121,129,136,140-142,174-176,185-187,192-198 
+  CourseSearch.tsx       |   73.73 |       74 |   94.11 |   73.46 | 29,43,54,91-93,120-122,130,137,141-143,175-177,186-188,193-199 
   CourseSearchForm.tsx   |   73.91 |       50 |   66.66 |   73.91 | 73-74,91-214                                                   
   CourseView.tsx         |   66.66 |      100 |      50 |   66.66 | 20                                                             
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                             
-  LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 46                                                             
-  NavBar.tsx             |    92.3 |       75 |     100 |    92.3 | 46                                                             
+  LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 48                                                             
+  NavBar.tsx             |   92.85 |       75 |     100 |   92.85 | 54                                                             
   PlanEdit.tsx           |   33.33 |      100 |   16.66 |   33.33 | 19-24,37-63                                                    
-  PlanList.tsx           |    64.7 |       50 |    62.5 |    64.7 | 24,38-41,75,114                                                
+  PlanList.tsx           |    64.7 |       50 |    62.5 |    64.7 | 25,39-42,77,116                                                
   PlanView.tsx           |   58.33 |       50 |      50 |   58.33 | 30-61                                                          
   Planner.tsx            |     100 |      100 |     100 |     100 |                                                                
   SemesterList.tsx       |   66.66 |      100 |      60 |   66.66 | 50,87                                                          
@@ -2770,5 +2774,5 @@ All files                |   70.05 |    65.24 |   60.44 |   69.74 |
 Test Suites: 7 failed, 4 passed, 11 total
 Tests:       12 failed, 25 passed, 37 total
 Snapshots:   0 total
-Time:        14.953 s
+Time:        16.048 s
 Ran all test suites.
