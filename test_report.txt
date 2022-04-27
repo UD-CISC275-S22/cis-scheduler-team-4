@@ -4,7 +4,213 @@
 
 PASS src/test/CourseSearch.test.tsx
 PASS src/test/ViewCourseModal.test.tsx
-PASS src/test/App.test.tsx (9.204 s)
+FAIL src/test/App.test.tsx (6.575 s)
+  ● Console
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+    console.warn
+      No routes matched location "/"
+
+      at warning (../packages/react-router/lib/router.ts:11:49)
+      at useRoutes (../packages/react-router/lib/hooks.tsx:348:5)
+      at Routes (../packages/react-router/lib/components.tsx:256:10)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+
+  ● Swappable windows to Planner, Course Search, Plans Component. › renders three buttons on screen
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 3
+    Received: 2
+
+      25 |     test("renders three buttons on screen", () => {
+      26 |         const buttons = screen.getAllByRole("button");
+    > 27 |         expect(buttons.length).toBe(3);
+         |                                ^
+      28 |     });
+      29 |
+      30 |     test("'Get Started' is the text on one of the buttons and clicking it routes you to the course page.", () => {
+
+      at Object.<anonymous> (src/test/App.test.tsx:27:32)
+
+  ● Swappable windows to Planner, Course Search, Plans Component. › 'Get Started' is the text on one of the buttons and clicking it routes you to the course page.
+
+    TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Get Started"
+
+    Here are the accessible roles:
+
+      button:
+
+      Name "Home":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      Name "Search Courses":
+      [36m<button[39m
+        [33mclass[39m=[32m"btn btn-primary"[39m
+        [33mstyle[39m=[32m"margin-left: auto; display: block;"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+      heading:
+
+      Name "":
+      [36m<h2[39m
+        [33mclass[39m=[32m"sc-kDDrLX fzBeRl"[39m
+      [36m/>[39m
+
+      --------------------------------------------------
+
+    Ignored nodes: comments, <script />, <style />
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
+          [36m<section[39m
+            [33mclass[39m=[32m"sc-papXJ jaMIso"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-jqUVSM jOGVjZ"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mHome[0m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-jqUVSM jOGVjZ"[39m
+              [33mstyle[39m=[32m"justify-content: center;"[39m
+            [36m>[39m
+              [36m<h2[39m
+                [33mclass[39m=[32m"sc-kDDrLX fzBeRl"[39m
+              [36m/>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"sc-jqUVSM jOGVjZ"[39m
+            [36m>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"btn btn-primary"[39m
+                [33mstyle[39m=[32m"margin-left: auto; display: block;"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSearch Courses[0m
+              [36m</button>[39m
+            [36m</div>[39m
+          [36m</section>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"content"[39m
+          [36m/>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+      29 |
+      30 |     test("'Get Started' is the text on one of the buttons and clicking it routes you to the course page.", () => {
+    > 31 |         const getStarted = screen.getByRole("button", { name: "Get Started" });
+         |                                   ^
+      32 |
+      33 |         getStarted.click();
+      34 |         const linkElement = screen.getByText(/Plans/i);
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:38:19)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+      at node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+      at getByRole (node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+      at Object.<anonymous> (src/test/App.test.tsx:31:35)
+
 FAIL src/test/SemesterView.test.tsx
   ● User should be able to delete semesters › You can delete a semester
 
@@ -2735,10 +2941,10 @@ FAIL src/test/YearView.test.tsx
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                        
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------
-All files                |   70.94 |    65.43 |    60.9 |   70.63 |                                                          
+All files                |   70.08 |    64.19 |   59.39 |   69.76 |                                                          
  src                     |   84.31 |       70 |   61.53 |   84.78 |                                                          
   App.tsx                |   84.31 |       70 |   61.53 |   84.78 | 84,92,114-120,124-125,130                                
- src/components          |   68.35 |    64.78 |   60.83 |   68.13 |                                                          
+ src/components          |   67.34 |    63.38 |   59.16 |   67.11 |                                                          
   CourseList.tsx         |     100 |      100 |     100 |     100 |                                                          
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 62-74                                                    
   CourseModalContent.tsx |   83.33 |       75 |     100 |   82.35 | 24,33-34                                                 
@@ -2747,11 +2953,11 @@ All files                |   70.94 |    65.43 |    60.9 |   70.63 |
   CourseView.tsx         |   66.66 |      100 |      50 |   66.66 | 20                                                       
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                       
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 46                                                       
-  NavBar.tsx             |    92.3 |       75 |     100 |    92.3 | 45                                                       
+  NavBar.tsx             |   76.92 |    58.33 |      75 |   76.92 | 42-45                                                    
   PlanEdit.tsx           |   33.33 |      100 |   16.66 |   33.33 | 19-24,37-63                                              
   PlanList.tsx           |    64.7 |       50 |    62.5 |    64.7 | 24,35-38,72,111                                          
   PlanView.tsx           |   58.33 |       50 |      50 |   58.33 | 30-61                                                    
-  Planner.tsx            |     100 |      100 |     100 |     100 |                                                          
+  Planner.tsx            |      50 |      100 |       0 |      50 | 20                                                       
   SemesterList.tsx       |   66.66 |      100 |      60 |   66.66 | 50,87                                                    
   SemesterView.tsx       |   44.44 |       10 |   53.84 |   44.44 | 31-42,65-87                                              
   ViewCourseModal.tsx    |      90 |      100 |      75 |      90 | 29                                                       
@@ -2767,8 +2973,8 @@ All files                |   70.94 |    65.43 |    60.9 |   70.63 |
   Semester.ts            |       0 |        0 |       0 |       0 |                                                          
   Year.ts                |       0 |        0 |       0 |       0 |                                                          
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------
-Test Suites: 7 failed, 4 passed, 11 total
-Tests:       12 failed, 25 passed, 37 total
+Test Suites: 8 failed, 3 passed, 11 total
+Tests:       14 failed, 23 passed, 37 total
 Snapshots:   0 total
-Time:        23.048 s
+Time:        16.342 s
 Ran all test suites.
