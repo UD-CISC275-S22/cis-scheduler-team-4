@@ -4,7 +4,7 @@
 
 PASS src/test/CourseSearch.test.tsx
 PASS src/test/ViewCourseModal.test.tsx
-FAIL src/test/App.test.tsx (6.575 s)
+FAIL src/test/App.test.tsx (9.392 s)
   ● Console
 
     console.warn
@@ -2953,7 +2953,7 @@ All files                |   70.08 |    64.19 |   59.39 |   69.76 |
   CourseView.tsx         |   66.66 |      100 |      50 |   66.66 | 20                                                       
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                       
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 46                                                       
-  NavBar.tsx             |   76.92 |    58.33 |      75 |   76.92 | 42-45                                                    
+  NavBar.tsx             |   76.92 |    58.33 |      75 |   76.92 | 43-46                                                    
   PlanEdit.tsx           |   33.33 |      100 |   16.66 |   33.33 | 19-24,37-63                                              
   PlanList.tsx           |    64.7 |       50 |    62.5 |    64.7 | 24,35-38,72,111                                          
   PlanView.tsx           |   58.33 |       50 |      50 |   58.33 | 30-61                                                    
@@ -2976,5 +2976,5 @@ All files                |   70.08 |    64.19 |   59.39 |   69.76 |
 Test Suites: 8 failed, 3 passed, 11 total
 Tests:       14 failed, 23 passed, 37 total
 Snapshots:   0 total
-Time:        16.342 s
+Time:        23.682 s
 Ran all test suites.
