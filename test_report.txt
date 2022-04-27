@@ -4,7 +4,7 @@
 
 PASS src/test/CourseSearch.test.tsx
 PASS src/test/ViewCourseModal.test.tsx
-PASS src/test/App.test.tsx (6.791 s)
+PASS src/test/App.test.tsx (6.657 s)
 FAIL src/test/SemesterView.test.tsx
   ● User should be able to delete semesters › You can delete a semester
 
@@ -2770,5 +2770,5 @@ All files                |   70.94 |    65.43 |    60.9 |   70.63 |
 Test Suites: 7 failed, 4 passed, 11 total
 Tests:       12 failed, 25 passed, 37 total
 Snapshots:   0 total
-Time:        16.878 s
+Time:        16.618 s
 Ran all test suites.
