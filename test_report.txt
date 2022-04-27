@@ -4,7 +4,7 @@
 
 PASS src/test/CourseSearch.test.tsx
 PASS src/test/ViewCourseModal.test.tsx
-PASS src/test/App.test.tsx (8.657 s)
+PASS src/test/App.test.tsx (6.71 s)
 FAIL src/test/SemesterView.test.tsx
   ● User should be able to delete semesters › You can delete a semester
 
@@ -2742,14 +2742,14 @@ All files                |   70.94 |    65.43 |    60.9 |   70.63 |
   CourseList.tsx         |     100 |      100 |     100 |     100 |                                                          
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 62-74                                                    
   CourseModalContent.tsx |   83.33 |       75 |     100 |   82.35 | 24,33-34                                                 
-  CourseSearch.tsx       |   74.15 |       75 |   93.75 |   73.86 | 28,42,53,100-102,110,117,121-123,155-157,166-168,173-179 
+  CourseSearch.tsx       |   74.15 |       75 |   93.75 |   73.86 | 28,42,53,103-105,113,120,124-126,158-160,169-171,176-182 
   CourseSearchForm.tsx   |   73.91 |       50 |   66.66 |   73.91 | 73-74,91-214                                             
   CourseView.tsx         |   66.66 |      100 |      50 |   66.66 | 20                                                       
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                       
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 46                                                       
   NavBar.tsx             |    92.3 |       75 |     100 |    92.3 | 46                                                       
   PlanEdit.tsx           |   33.33 |      100 |   16.66 |   33.33 | 19-24,37-63                                              
-  PlanList.tsx           |    64.7 |       50 |    62.5 |    64.7 | 24,35-38,72,111                                          
+  PlanList.tsx           |    64.7 |       50 |    62.5 |    64.7 | 24,38-41,75,114                                          
   PlanView.tsx           |   58.33 |       50 |      50 |   58.33 | 30-61                                                    
   Planner.tsx            |     100 |      100 |     100 |     100 |                                                          
   SemesterList.tsx       |   66.66 |      100 |      60 |   66.66 | 50,87                                                    
@@ -2770,5 +2770,5 @@ All files                |   70.94 |    65.43 |    60.9 |   70.63 |
 Test Suites: 7 failed, 4 passed, 11 total
 Tests:       12 failed, 25 passed, 37 total
 Snapshots:   0 total
-Time:        21.838 s
+Time:        16.515 s
 Ran all test suites.
