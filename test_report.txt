@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (10.01 s)
+PASS src/test/CourseSearch.test.tsx (7.824 s)
 PASS src/test/ViewCourseModal.test.tsx
 FAIL src/test/App.test.tsx
   ● Swappable windows to Planner, Course Search, Plans Component. › renders three buttons on screen
@@ -2798,5 +2798,5 @@ All files                |    69.1 |    62.64 |   58.57 |    68.8 |
 Test Suites: 8 failed, 3 passed, 11 total
 Tests:       13 failed, 24 passed, 37 total
 Snapshots:   0 total
-Time:        21.829 s
+Time:        17.21 s
 Ran all test suites.
