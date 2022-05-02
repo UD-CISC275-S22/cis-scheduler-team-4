@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-FAIL src/test/CourseSearch.test.tsx (10.09 s)
+FAIL src/test/CourseSearch.test.tsx (12.718 s)
   ● Console
 
     console.error
@@ -1351,7 +1351,7 @@ FAIL src/test/App.test.tsx
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
           [36m<section[39m
-            [33mclass[39m=[32m"sc-papXJ loSOBa"[39m
+            [33mclass[39m=[32m"sc-papXJ cFifSH"[39m
           [36m>[39m
             [36m<div[39m
               [33mclass[39m=[32m"sc-jqUVSM iCTdKl"[39m
@@ -1396,6 +1396,9 @@ FAIL src/test/App.test.tsx
               [36m</div>[39m
             [36m</div>[39m
           [36m</section>[39m
+          [36m<div[39m
+            [33mstyle[39m=[32m"height: 56px;"[39m
+          [36m/>[39m
           [36m<div[39m
             [33mclass[39m=[32m"content"[39m
           [36m>[39m
@@ -3284,9 +3287,9 @@ FAIL src/test/CourseView.test.tsx
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                          
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
-All files                |    40.5 |    27.72 |   26.55 |   40.11 |                                                                            
- src                     |   68.18 |    68.18 |   58.33 |   66.12 |                                                                            
-  App.tsx                |   67.69 |       70 |   58.33 |   65.57 | 93-105,114-123,131,148-152,157-160                                         
+All files                |    37.7 |    23.55 |   25.71 |   37.75 |                                                                            
+ src                     |   51.16 |       30 |      50 |   51.16 |                                                                            
+  App.tsx                |      50 |       25 |      50 |      50 | 93-105,114-123,131,148-152,157-160                                         
   uri.ts                 |     100 |       50 |     100 |     100 | 2                                                                          
  src/components          |   35.98 |    23.95 |   24.52 |   36.01 |                                                                            
   CourseList.tsx         |      25 |        0 |       0 |      25 | 19-44                                                                      
@@ -3297,7 +3300,7 @@ All files                |    40.5 |    27.72 |   26.55 |   40.11 |
   CourseView.tsx         |   11.11 |        0 |       0 |   11.11 | 16-42                                                                      
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                                         
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 48                                                                         
-  NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 58                                                                         
+  NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 60                                                                         
   PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-63                                                                      
   PlanList.tsx           |   21.91 |    16.66 |   21.73 |   23.18 | 31,45-48,53-59,63-64,69,74-143,148-199,237-251,290                         
   PlanView.tsx           |   21.42 |       25 |    9.09 |   21.42 | 32-80                                                                      
@@ -3326,5 +3329,5 @@ All files                |    40.5 |    27.72 |   26.55 |   40.11 |
 Test Suites: 10 failed, 1 passed, 11 total
 Tests:       28 failed, 9 passed, 37 total
 Snapshots:   0 total
-Time:        22.566 s
+Time:        27.035 s
 Ran all test suites.
