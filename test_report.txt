@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-FAIL src/test/CourseSearch.test.tsx (9.337 s)
+FAIL src/test/CourseSearch.test.tsx (9.91 s)
   ● Console
 
     console.error
@@ -19,7 +19,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -72,7 +72,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -100,7 +100,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -153,7 +153,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -181,7 +181,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -234,7 +234,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -262,7 +262,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -315,7 +315,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -343,7 +343,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -396,7 +396,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -424,7 +424,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -477,7 +477,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -505,7 +505,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -558,7 +558,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -578,7 +578,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -614,7 +614,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -650,7 +650,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -686,7 +686,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -722,7 +722,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -758,7 +758,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -794,7 +794,7 @@ FAIL src/test/CourseSearch.test.tsx (9.337 s)
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -841,7 +841,7 @@ FAIL src/test/ViewCourseModal.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -894,7 +894,7 @@ FAIL src/test/ViewCourseModal.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -922,7 +922,7 @@ FAIL src/test/ViewCourseModal.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -975,7 +975,7 @@ FAIL src/test/ViewCourseModal.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -1003,7 +1003,7 @@ FAIL src/test/ViewCourseModal.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1056,7 +1056,7 @@ FAIL src/test/ViewCourseModal.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -1084,7 +1084,7 @@ FAIL src/test/ViewCourseModal.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1137,7 +1137,7 @@ FAIL src/test/ViewCourseModal.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -1157,7 +1157,7 @@ FAIL src/test/ViewCourseModal.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1193,7 +1193,7 @@ FAIL src/test/ViewCourseModal.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1229,7 +1229,7 @@ FAIL src/test/ViewCourseModal.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1265,7 +1265,7 @@ FAIL src/test/ViewCourseModal.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1329,6 +1329,7 @@ FAIL src/test/App.test.tsx
     Ignored nodes: comments, <script />, <style />
     [36m<button[39m
       [33mclass[39m=[32m"btn btn-primary"[39m
+      [33mstyle[39m=[32m"margin-top: .5rem;"[39m
       [33mtype[39m=[32m"button"[39m
     [36m>[39m
       [0mDownload Plans[0m
@@ -1405,14 +1406,14 @@ FAIL src/test/App.test.tsx
             [36m<div>[39m
               [36m<section>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"sc-breuTD IkfWE"[39m
+                  [33mclass[39m=[32m"sc-evZas bOMkMT"[39m
                 [36m>[39m
                   [36m<div>[39m
                     [36m<div[39m
                       [33mclass[39m=[32m"vstack gap-3"[39m
                     [36m>[39m
                       [36m<div[39m
-                        [33mclass[39m=[32m"border m-2 p-3 text-white"[39m
+                        [33mclass[39m=[32m"p-3 text-white"[39m
                         [33mstyle[39m=[32m"border-radius: 8px;"[39m
                       [36m>[39m
                         [36m<div>[39m
@@ -1445,18 +1446,22 @@ FAIL src/test/App.test.tsx
                       [36m</div>[39m
                     [36m</div>[39m
                     [36m<button[39m
-                      [33mclass[39m=[32m"m-2 btn btn-primary"[39m
+                      [33mclass[39m=[32m"btn btn-primary"[39m
+                      [33mstyle[39m=[32m"margin-top: .5rem; margin-right: 1rem;"[39m
                       [33mtype[39m=[32m"button"[39m
                     [36m>[39m
                       [0mAdd Plan[0m
                     [36m</button>[39m
                     [36m<button[39m
                       [33mclass[39m=[32m"btn btn-primary"[39m
+                      [33mstyle[39m=[32m"margin-top: .5rem;"[39m
                       [33mtype[39m=[32m"button"[39m
                     [36m>[39m
                       [0mDownload Plans[0m
                     [36m</button>[39m
-                    [36m<div>[39m
+                    [36m<div[39m
+                      [33mstyle[39m=[32m"margin-bottom: 1rem;"[39m
+                    [36m>[39m
                       [36m<label[39m
                         [33mclass[39m=[32m"form-label"[39m
                         [33mfor[39m=[32m"exampleForm"[39m
@@ -1469,70 +1474,57 @@ FAIL src/test/App.test.tsx
                         [33mtype[39m=[32m"file"[39m
                       [36m/>[39m
                     [36m</div>[39m
+                    [36m<div>[39m
+                      [36m<div[39m
+                        [33mstyle[39m=[32m"text-align: center;"[39m
+                      [36m>[39m
+                        [36m<h3>[39m
+                          [0mRequirements[0m
+                        [36m</h3>[39m
+                      [36m</div>[39m
+                      [36m<h4>[39m
+                        [0mCourses:[0m
+                      [36m</h4>[39m
+                      [36m<div[39m
+                        [33mstyle[39m=[32m"display: flex; flex-direction: row; text-align: left;"[39m
+                      [36m>[39m
+                        [0mEGGG 101, CISC 108, MATH 241, ENGL 110, CISC 181, CISC 210, MATH 242, CISC 220, CISC 260, MATH 210, CISC 355, CISC 275[0m
+                      [36m</div>[39m
+                      [36m<br />[39m
+                      [36m<h4>[39m
+                        [0mBreadth credits:[0m
+                      [36m</h4>[39m
+                      [36m<div[39m
+                        [33mstyle[39m=[32m"text-align: left;"[39m
+                      [36m>[39m
+                        [36m<div>[39m
+                          [0mTechnical Elective Credits: [0m
+                          [0m6[0m
+                        [36m</div>[39m
+                        [36m<div>[39m
+                          [0mCreative Arts and Humanities Credits: [0m
+                          [0m3[0m
+                        [36m</div>[39m
+                        [36m<div>[39m
+                          [0mHistory and Cultural Change Credits: [0m
+                          [0m3[0m
+                        [36m</div>[39m
+                        [36m<div>[39m
+                          [0mSocial and Behavioral Sciences Credits: [0m
+                          [0m3[0m
+                        [36m</div>[39m
+                        [36m<div>[39m
+                          [0mMathematics, Natural Sciences and Technology Credits:[0m
+                          [0m [0m
+                          [0m3[0m
+                        [36m</div>[39m
+                      [36m</div>[39m
+                    [36m</div>[39m
                   [36m</div>[39m
                   [36m<div[39m
                     [33mclass[39m=[32m"vstack gap-3"[39m
                   [36m>[39m
                     [36m<div />[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</section>[39m
-              [36m<section>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"sc-evZas crZiiR"[39m
-                [36m>[39m
-                  [36m<div>[39m
-                    [36m<div[39m
-                      [33mstyle[39m=[32m"text-align: center;"[39m
-                    [36m>[39m
-                      [36m<u>[39m
-                        [0mRequirements[0m
-                      [36m</u>[39m
-                    [36m</div>[39m
-                    [36m<u>[39m
-                      [0mCourses:[0m
-                    [36m</u>[39m
-                    [36m<div[39m
-                      [33mstyle[39m=[32m"display: flex; flex-direction: row; text-align: left;"[39m
-                    [36m>[39m
-                      [0mEGGG 101, CISC 108, MATH 241, ENGL 110, CISC 181, CISC 210, MATH 242, CISC 220, CISC 260, MATH 210, CISC 355, CISC 275[0m
-                    [36m</div>[39m
-                    [36m<br />[39m
-                    [36m<u>[39m
-                      [0mBreadth credits:[0m
-                    [36m</u>[39m
-                    [36m<div[39m
-                      [33mstyle[39m=[32m"display: flex; flex-direction: row; text-align: left;"[39m
-                    [36m>[39m
-                      [36m<div>[39m
-                        [0mTech: [0m
-                        [0m6[0m
-                        [0m,[0m
-                        [0m [0m
-                      [36m</div>[39m
-                      [36m<div>[39m
-                        [0mCreative: [0m
-                        [0m3[0m
-                        [0m,[0m
-                        [0m [0m
-                      [36m</div>[39m
-                      [36m<div>[39m
-                        [0mHistory: [0m
-                        [0m3[0m
-                        [0m,[0m
-                        [0m [0m
-                      [36m</div>[39m
-                      [36m<div>[39m
-                        [0mSocial: [0m
-                        [0m3[0m
-                        [0m,[0m
-                        [0m [0m
-                      [36m</div>[39m
-                      [36m<div>[39m
-                        [0mMath: [0m
-                        [0m3[0m
-                      [36m</div>[39m
-                    [36m</div>[39m
                   [36m</div>[39m
                 [36m</div>[39m
               [36m</section>[39m
@@ -1575,7 +1567,7 @@ FAIL src/test/SemesterView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1628,7 +1620,7 @@ FAIL src/test/SemesterView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -1656,7 +1648,7 @@ FAIL src/test/SemesterView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1709,7 +1701,7 @@ FAIL src/test/SemesterView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -1737,7 +1729,7 @@ FAIL src/test/SemesterView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1790,7 +1782,7 @@ FAIL src/test/SemesterView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -1810,7 +1802,7 @@ FAIL src/test/SemesterView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1846,7 +1838,7 @@ FAIL src/test/SemesterView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1882,7 +1874,7 @@ FAIL src/test/SemesterView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1929,7 +1921,7 @@ FAIL src/test/PlanView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -1982,7 +1974,7 @@ FAIL src/test/PlanView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2010,7 +2002,7 @@ FAIL src/test/PlanView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2063,7 +2055,7 @@ FAIL src/test/PlanView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2083,7 +2075,7 @@ FAIL src/test/PlanView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2119,7 +2111,7 @@ FAIL src/test/PlanView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2166,7 +2158,7 @@ FAIL src/test/PlanList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2219,7 +2211,7 @@ FAIL src/test/PlanList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2247,7 +2239,7 @@ FAIL src/test/PlanList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2300,7 +2292,7 @@ FAIL src/test/PlanList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2328,7 +2320,7 @@ FAIL src/test/PlanList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2381,7 +2373,7 @@ FAIL src/test/PlanList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2409,7 +2401,7 @@ FAIL src/test/PlanList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2462,7 +2454,7 @@ FAIL src/test/PlanList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2482,7 +2474,7 @@ FAIL src/test/PlanList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2518,7 +2510,7 @@ FAIL src/test/PlanList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2554,7 +2546,7 @@ FAIL src/test/PlanList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2590,7 +2582,7 @@ FAIL src/test/PlanList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2637,7 +2629,7 @@ FAIL src/test/YearList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2690,7 +2682,7 @@ FAIL src/test/YearList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2718,7 +2710,7 @@ FAIL src/test/YearList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2771,7 +2763,7 @@ FAIL src/test/YearList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2799,7 +2791,7 @@ FAIL src/test/YearList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2852,7 +2844,7 @@ FAIL src/test/YearList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -2872,7 +2864,7 @@ FAIL src/test/YearList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2908,7 +2900,7 @@ FAIL src/test/YearList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2944,7 +2936,7 @@ FAIL src/test/YearList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -2992,7 +2984,7 @@ FAIL src/test/SemesterList.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -3045,7 +3037,7 @@ FAIL src/test/SemesterList.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -3065,7 +3057,7 @@ FAIL src/test/SemesterList.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -3112,7 +3104,7 @@ FAIL src/test/YearView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -3165,7 +3157,7 @@ FAIL src/test/YearView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -3185,7 +3177,7 @@ FAIL src/test/YearView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -3232,7 +3224,7 @@ FAIL src/test/CourseView.test.tsx
           at performUnitOfWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:22779:12) Error: useLocation() may be used only in the context of a <Router> component.
           at invariant (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/router.ts:5:20)
           at useLocation (/home/runner/work/cis-scheduler-team-4/packages/react-router/lib/hooks.tsx:75:3)
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:164:22)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:151:22)
           at renderWithHooks (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:14985:18)
           at mountIndeterminateComponent (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:17811:13)
           at beginWork (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -3291,7 +3283,7 @@ FAIL src/test/CourseView.test.tsx
     console.error
       The above error occurred in the <App> component:
       
-          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:109:51)
+          at App (/home/runner/work/cis-scheduler-team-4/cis-scheduler-team-4/src/App.tsx:108:51)
       
       Consider adding an error boundary to your tree to customize error handling behavior.
       Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
@@ -3311,7 +3303,7 @@ FAIL src/test/CourseView.test.tsx
 
       at invariant (../packages/react-router/lib/router.ts:5:20)
       at useLocation (../packages/react-router/lib/hooks.tsx:75:3)
-      at App (src/App.tsx:164:22)
+      at App (src/App.tsx:151:22)
       at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
       at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
       at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
@@ -3348,11 +3340,11 @@ FAIL src/test/CourseView.test.tsx
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                          
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
-All files                |   38.46 |    23.55 |   26.13 |   38.52 |                                                                            
- src                     |   51.16 |       30 |      50 |   51.16 |                                                                            
-  App.tsx                |      50 |       25 |      50 |      50 | 93-105,114-123,131,148-152,157-160                                         
+All files                |   38.33 |    23.55 |   26.13 |   38.39 |                                                                            
+ src                     |   44.44 |       25 |    37.5 |   44.44 |                                                                            
+  App.tsx                |   42.85 |    16.66 |    37.5 |   42.85 | 92-104,113-122,135-139,144-147                                             
   uri.ts                 |     100 |       50 |     100 |     100 | 2                                                                          
- src/components          |   36.86 |    23.95 |      25 |   36.91 |                                                                            
+ src/components          |    37.5 |    24.22 |   25.92 |   37.55 |                                                                            
   CourseList.tsx         |      25 |        0 |       0 |      25 | 19-44                                                                      
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 64-76                                                                      
   CourseModalContent.tsx |   68.18 |       50 |      50 |   66.66 | 26-29,36,40,45-46                                                          
@@ -3363,7 +3355,7 @@ All files                |   38.46 |    23.55 |   26.13 |   38.52 |
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 48                                                                         
   NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 60                                                                         
   PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-71                                                                      
-  PlanList.tsx           |   22.97 |    16.66 |   21.73 |   24.28 | 39,53-56,61-67,71-72,77,82-151,156-207,249-263,285                         
+  PlanList.tsx           |   28.39 |    19.23 |      28 |   29.87 | 37,46,64-67,72-78,82-83,88,93-162,167-218,260-278,304                      
   PlanView.tsx           |   21.42 |       25 |    9.09 |   21.42 | 32-80                                                                      
   Planner.tsx            |     100 |      100 |     100 |     100 |                                                                            
   RequiredCourses.tsx    |     100 |      100 |     100 |     100 |                                                                            
@@ -3391,5 +3383,5 @@ All files                |   38.46 |    23.55 |   26.13 |   38.52 |
 Test Suites: 10 failed, 1 passed, 11 total
 Tests:       28 failed, 9 passed, 37 total
 Snapshots:   0 total
-Time:        19.653 s
+Time:        20.75 s
 Ran all test suites.
