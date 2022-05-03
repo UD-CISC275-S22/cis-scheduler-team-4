@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-FAIL src/test/CourseSearch.test.tsx (10.782 s)
+FAIL src/test/CourseSearch.test.tsx (10.027 s)
   ● Console
 
     console.error
@@ -1352,7 +1352,7 @@ FAIL src/test/App.test.tsx
           [33mclass[39m=[32m"App"[39m
         [36m>[39m
           [36m<section[39m
-            [33mclass[39m=[32m"sc-papXJ cFifSH"[39m
+            [33mclass[39m=[32m"sc-papXJ geElZf"[39m
           [36m>[39m
             [36m<div[39m
               [33mclass[39m=[32m"sc-jqUVSM iCTdKl"[39m
@@ -1406,7 +1406,7 @@ FAIL src/test/App.test.tsx
             [36m<div>[39m
               [36m<section>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"sc-evZas bOMkMT"[39m
+                  [33mclass[39m=[32m"sc-hAZoDl cIdhAY"[39m
                 [36m>[39m
                   [36m<div>[39m
                     [36m<div[39m
@@ -1417,27 +1417,29 @@ FAIL src/test/App.test.tsx
                         [33mstyle[39m=[32m"border-radius: 8px;"[39m
                       [36m>[39m
                         [36m<div>[39m
-                          [36m<h1>[39m
-                            [0mDefault Plan[0m
-                          [36m</h1>[39m
-                          [36m<i[39m
-                            [33mclass[39m=[32m"d-block"[39m
-                          [36m>[39m
-                            [0mDescription: [0m
-                            [0mDefault Plan for CISC Majors[0m
-                          [36m</i>[39m
-                          [36m<button[39m
-                            [33mclass[39m=[32m"btn-outline-primary btn-light mt-2 btn btn-primary btn-sm"[39m
-                            [33mtype[39m=[32m"button"[39m
-                          [36m>[39m
-                            [0mEdit[0m
-                          [36m</button>[39m
+                          [36m<div>[39m
+                            [36m<h1>[39m
+                              [0mDefault Plan[0m
+                            [36m</h1>[39m
+                            [36m<i[39m
+                              [33mclass[39m=[32m"d-block"[39m
+                            [36m>[39m
+                              [0mDescription: [0m
+                              [0mDefault Plan for CISC Majors[0m
+                            [36m</i>[39m
+                            [36m<button[39m
+                              [33mclass[39m=[32m"btn-outline-primary btn-light mt-2 btn btn-primary btn-sm"[39m
+                              [33mtype[39m=[32m"button"[39m
+                            [36m>[39m
+                              [0mEdit[0m
+                            [36m</button>[39m
+                          [36m</div>[39m
                         [36m</div>[39m
                         [36m<div[39m
                           [33mstyle[39m=[32m"display: flex; justify-content: center;"[39m
                         [36m>[39m
                           [36m<span[39m
-                            [33mclass[39m=[32m"sc-crXcEl MuRLI"[39m
+                            [33mclass[39m=[32m"sc-ksZaOG kaWnVI"[39m
                             [33mstyle[39m=[32m"font-size: 12px; font-style: italic; cursor: pointer;"[39m
                           [36m>[39m
                             [0mClick to expand[0m
@@ -1486,7 +1488,7 @@ FAIL src/test/App.test.tsx
                         [0mCourses:[0m
                       [36m</h4>[39m
                       [36m<div[39m
-                        [33mstyle[39m=[32m"display: flex; flex-direction: row; text-align: left;"[39m
+                        [33mstyle[39m=[32m"display: flex; flex-direction: row; flex-wrap: wrap; text-align: left;"[39m
                       [36m>[39m
                         [0mEGGG 101, CISC 108, MATH 241, ENGL 110, CISC 181, CISC 210, MATH 242, CISC 220, CISC 260, MATH 210, CISC 355, CISC 275[0m
                       [36m</div>[39m
@@ -3340,11 +3342,11 @@ FAIL src/test/CourseView.test.tsx
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                          
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
-All files                |      38 |    23.14 |   25.69 |   38.05 |                                                                            
+All files                |   36.67 |    20.83 |      25 |   36.71 |                                                                            
  src                     |   44.44 |       25 |    37.5 |   44.44 |                                                                            
   App.tsx                |   42.85 |    16.66 |    37.5 |   42.85 | 92-104,113-122,135-139,144-147                                             
   uri.ts                 |     100 |       50 |     100 |     100 | 2                                                                          
- src/components          |   37.13 |    23.76 |   25.45 |   37.18 |                                                                            
+ src/components          |   35.71 |    21.23 |    24.7 |   35.74 |                                                                            
   CourseList.tsx         |      25 |        0 |       0 |      25 | 19-44                                                                      
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 64-76                                                                      
   CourseModalContent.tsx |   68.18 |       50 |      50 |   66.66 | 26-29,36,40,45-46                                                          
@@ -3353,12 +3355,13 @@ All files                |      38 |    23.14 |   25.69 |   38.05 |
   CourseView.tsx         |   11.11 |        0 |       0 |   11.11 | 16-42                                                                      
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                                         
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 48                                                                         
-  NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 60                                                                         
+  NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 61                                                                         
   PlanEdit.tsx           |    7.69 |        0 |       0 |    7.69 | 16-81                                                                      
-  PlanList.tsx           |   28.39 |    19.23 |      28 |   29.87 | 37,46,64-67,72-78,82-83,88,93-162,167-218,260-278,304                      
-  PlanView.tsx           |   21.42 |       25 |    9.09 |   21.42 | 32-80                                                                      
+  PlanList.tsx           |   28.39 |    19.23 |      28 |   29.87 | 40,49,67-70,75-81,85-86,91,96-165,170-221,264-282,308                      
+  PlanView.tsx           |   21.42 |       25 |    9.09 |   21.42 | 36-84                                                                      
   Planner.tsx            |     100 |      100 |     100 |     100 |                                                                            
-  RequiredCourses.tsx    |     100 |      100 |     100 |     100 |                                                                            
+  ReqCoursePlan.tsx      |   13.79 |        0 |       0 |   13.79 | 58-109                                                                     
+  ReqCoursePlanner.tsx   |     100 |      100 |     100 |     100 |                                                                            
   SemesterList.tsx       |    5.88 |        0 |       0 |    5.88 | 26-194                                                                     
   SemesterView.tsx       |    2.85 |        0 |       0 |    2.85 | 28-240                                                                     
   ViewCourseModal.tsx    |      90 |      100 |      75 |      90 | 31                                                                         
@@ -3383,5 +3386,5 @@ All files                |      38 |    23.14 |   25.69 |   38.05 |
 Test Suites: 10 failed, 1 passed, 11 total
 Tests:       28 failed, 9 passed, 37 total
 Snapshots:   0 total
-Time:        22.956 s
+Time:        20.689 s
 Ran all test suites.
