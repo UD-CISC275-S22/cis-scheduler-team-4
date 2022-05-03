@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-FAIL src/test/CourseSearch.test.tsx (8.577 s)
+FAIL src/test/CourseSearch.test.tsx (9.337 s)
   ● Console
 
     console.error
@@ -1412,8 +1412,8 @@ FAIL src/test/App.test.tsx
                       [33mclass[39m=[32m"vstack gap-3"[39m
                     [36m>[39m
                       [36m<div[39m
-                        [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
-                        [33mstyle[39m=[32m"border-radius: 0.3rem;"[39m
+                        [33mclass[39m=[32m"border m-2 p-3 text-white"[39m
+                        [33mstyle[39m=[32m"border-radius: 8px;"[39m
                       [36m>[39m
                         [36m<div>[39m
                           [36m<h1>[39m
@@ -1426,7 +1426,7 @@ FAIL src/test/App.test.tsx
                             [0mDefault Plan for CISC Majors[0m
                           [36m</i>[39m
                           [36m<button[39m
-                            [33mclass[39m=[32m"float-right mt-2 btn btn-primary btn-sm"[39m
+                            [33mclass[39m=[32m"btn-outline-primary btn-light mt-2 btn btn-primary btn-sm"[39m
                             [33mtype[39m=[32m"button"[39m
                           [36m>[39m
                             [0mEdit[0m
@@ -3362,8 +3362,8 @@ All files                |   38.46 |    23.55 |   26.13 |   38.52 |
   EditModalContent.tsx   |   43.47 |        0 |      30 |   43.47 | 27-35,43-48,87-240                                                         
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 48                                                                         
   NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 60                                                                         
-  PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-63                                                                      
-  PlanList.tsx           |   22.97 |    16.66 |   21.73 |   24.28 | 39,53-56,61-67,71-72,77,82-151,156-207,246-260,299                         
+  PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-71                                                                      
+  PlanList.tsx           |   22.97 |    16.66 |   21.73 |   24.28 | 39,53-56,61-67,71-72,77,82-151,156-207,249-263,285                         
   PlanView.tsx           |   21.42 |       25 |    9.09 |   21.42 | 32-80                                                                      
   Planner.tsx            |     100 |      100 |     100 |     100 |                                                                            
   RequiredCourses.tsx    |     100 |      100 |     100 |     100 |                                                                            
@@ -3391,5 +3391,5 @@ All files                |   38.46 |    23.55 |   26.13 |   38.52 |
 Test Suites: 10 failed, 1 passed, 11 total
 Tests:       28 failed, 9 passed, 37 total
 Snapshots:   0 total
-Time:        18.221 s
+Time:        19.653 s
 Ran all test suites.
