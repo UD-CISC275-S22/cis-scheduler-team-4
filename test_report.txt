@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (9.101 s)
+PASS src/test/CourseSearch.test.tsx (12.311 s)
 FAIL src/test/ViewCourseModal.test.tsx
   ● Console
 
@@ -1811,7 +1811,7 @@ All files                     |    43.2 |    34.16 |   30.64 |    43.4 |
   CourseSearch.tsx            |   72.54 |       74 |      85 |   72.27 | 33,47,58,95-97,124-126,134,141,145-147,179-181,190-192,197-203,233,252 
   CourseSearchForm.tsx        |   73.91 |       50 |   63.63 |   73.91 | 61-62,79-202                                                           
  src/components/planner       |   58.18 |     40.9 |      40 |   59.25 |                                                                        
-  PlanList.tsx                |   63.88 |    42.85 |   47.05 |   65.71 | 36,45,63-66,81-82,87,129-162,180                                       
+  PlanList.tsx                |   63.88 |    42.85 |   47.05 |   65.71 | 37,46,64-67,82-83,88,127-168,186                                       
   PlanView.tsx                |   28.57 |     37.5 |   18.18 |   28.57 | 40-84                                                                  
   Planner.tsx                 |     100 |      100 |     100 |     100 |                                                                        
   ReqCoursePlanner.tsx        |     100 |      100 |     100 |     100 |                                                                        
@@ -1820,8 +1820,8 @@ All files                     |    43.2 |    34.16 |   30.64 |    43.4 |
   CourseView.tsx              |   11.11 |        0 |       0 |   11.11 | 16-42                                                                  
   PlanEdit.tsx                |   23.07 |        0 |    12.5 |   23.07 | 19-24,37-81                                                            
   ReqCoursePlan.tsx           |   13.79 |        0 |       0 |   13.79 | 58-109                                                                 
-  SemesterList.tsx            |    5.88 |        0 |       0 |    5.88 | 26-194                                                                 
-  SemesterView.tsx            |    2.85 |        0 |       0 |    2.85 | 28-240                                                                 
+  SemesterList.tsx            |    5.88 |        0 |       0 |    5.88 | 27-197                                                                 
+  SemesterView.tsx            |    2.85 |        0 |       0 |    2.85 | 28-258                                                                 
   YearList.tsx                |   33.33 |      100 |       0 |   33.33 | 24-28                                                                  
   YearView.tsx                |    5.26 |        0 |       0 |    5.26 | 35-122                                                                 
  src/data                     |    8.79 |        0 |       0 |    9.19 |                                                                        
@@ -1844,5 +1844,5 @@ All files                     |    43.2 |    34.16 |   30.64 |    43.4 |
 Test Suites: 7 failed, 4 passed, 11 total
 Tests:       15 failed, 22 passed, 37 total
 Snapshots:   0 total
-Time:        18.965 s
+Time:        25.124 s
 Ran all test suites.
