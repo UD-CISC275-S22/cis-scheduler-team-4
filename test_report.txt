@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-FAIL src/test/CourseSearch.test.tsx (12.718 s)
+FAIL src/test/CourseSearch.test.tsx (8.577 s)
   ● Console
 
     console.error
@@ -1405,7 +1405,7 @@ FAIL src/test/App.test.tsx
             [36m<div>[39m
               [36m<section>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"sc-crXcEl beNuPj"[39m
+                  [33mclass[39m=[32m"sc-breuTD IkfWE"[39m
                 [36m>[39m
                   [36m<div>[39m
                     [36m<div[39m
@@ -1413,6 +1413,7 @@ FAIL src/test/App.test.tsx
                     [36m>[39m
                       [36m<div[39m
                         [33mclass[39m=[32m"bg-light border m-2 p-2"[39m
+                        [33mstyle[39m=[32m"border-radius: 0.3rem;"[39m
                       [36m>[39m
                         [36m<div>[39m
                           [36m<h1>[39m
@@ -1435,6 +1436,7 @@ FAIL src/test/App.test.tsx
                           [33mstyle[39m=[32m"display: flex; justify-content: center;"[39m
                         [36m>[39m
                           [36m<span[39m
+                            [33mclass[39m=[32m"sc-crXcEl MuRLI"[39m
                             [33mstyle[39m=[32m"font-size: 12px; font-style: italic; cursor: pointer;"[39m
                           [36m>[39m
                             [0mClick to expand[0m
@@ -1472,6 +1474,65 @@ FAIL src/test/App.test.tsx
                     [33mclass[39m=[32m"vstack gap-3"[39m
                   [36m>[39m
                     [36m<div />[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</section>[39m
+              [36m<section>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"sc-evZas crZiiR"[39m
+                [36m>[39m
+                  [36m<div>[39m
+                    [36m<div[39m
+                      [33mstyle[39m=[32m"text-align: center;"[39m
+                    [36m>[39m
+                      [36m<u>[39m
+                        [0mRequirements[0m
+                      [36m</u>[39m
+                    [36m</div>[39m
+                    [36m<u>[39m
+                      [0mCourses:[0m
+                    [36m</u>[39m
+                    [36m<div[39m
+                      [33mstyle[39m=[32m"display: flex; flex-direction: row; text-align: left;"[39m
+                    [36m>[39m
+                      [0mEGGG 101, CISC 108, MATH 241, ENGL 110, CISC 181, CISC 210, MATH 242, CISC 220, CISC 260, MATH 210, CISC 355, CISC 275[0m
+                    [36m</div>[39m
+                    [36m<br />[39m
+                    [36m<u>[39m
+                      [0mBreadth credits:[0m
+                    [36m</u>[39m
+                    [36m<div[39m
+                      [33mstyle[39m=[32m"display: flex; flex-direction: row; text-align: left;"[39m
+                    [36m>[39m
+                      [36m<div>[39m
+                        [0mTech: [0m
+                        [0m6[0m
+                        [0m,[0m
+                        [0m [0m
+                      [36m</div>[39m
+                      [36m<div>[39m
+                        [0mCreative: [0m
+                        [0m3[0m
+                        [0m,[0m
+                        [0m [0m
+                      [36m</div>[39m
+                      [36m<div>[39m
+                        [0mHistory: [0m
+                        [0m3[0m
+                        [0m,[0m
+                        [0m [0m
+                      [36m</div>[39m
+                      [36m<div>[39m
+                        [0mSocial: [0m
+                        [0m3[0m
+                        [0m,[0m
+                        [0m [0m
+                      [36m</div>[39m
+                      [36m<div>[39m
+                        [0mMath: [0m
+                        [0m3[0m
+                      [36m</div>[39m
+                    [36m</div>[39m
                   [36m</div>[39m
                 [36m</div>[39m
               [36m</section>[39m
@@ -3287,11 +3348,11 @@ FAIL src/test/CourseView.test.tsx
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
 File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                          
 -------------------------|---------|----------|---------|---------|----------------------------------------------------------------------------
-All files                |    37.7 |    23.55 |   25.71 |   37.75 |                                                                            
+All files                |   38.46 |    23.55 |   26.13 |   38.52 |                                                                            
  src                     |   51.16 |       30 |      50 |   51.16 |                                                                            
   App.tsx                |      50 |       25 |      50 |      50 | 93-105,114-123,131,148-152,157-160                                         
   uri.ts                 |     100 |       50 |     100 |     100 | 2                                                                          
- src/components          |   35.98 |    23.95 |   24.52 |   36.01 |                                                                            
+ src/components          |   36.86 |    23.95 |      25 |   36.91 |                                                                            
   CourseList.tsx         |      25 |        0 |       0 |      25 | 19-44                                                                      
   CourseListDisplay.tsx  |   84.61 |      100 |   66.66 |   84.61 | 64-76                                                                      
   CourseModalContent.tsx |   68.18 |       50 |      50 |   66.66 | 26-29,36,40,45-46                                                          
@@ -3302,9 +3363,10 @@ All files                |    37.7 |    23.55 |   25.71 |   37.75 |
   LandingPage.tsx        |   85.71 |      100 |      50 |   85.71 | 48                                                                         
   NavBar.tsx             |   93.33 |    71.42 |     100 |   93.33 | 60                                                                         
   PlanEdit.tsx           |   11.11 |      100 |       0 |   11.11 | 16-63                                                                      
-  PlanList.tsx           |   21.91 |    16.66 |   21.73 |   23.18 | 31,45-48,53-59,63-64,69,74-143,148-199,237-251,290                         
+  PlanList.tsx           |   22.97 |    16.66 |   21.73 |   24.28 | 39,53-56,61-67,71-72,77,82-151,156-207,246-260,299                         
   PlanView.tsx           |   21.42 |       25 |    9.09 |   21.42 | 32-80                                                                      
   Planner.tsx            |     100 |      100 |     100 |     100 |                                                                            
+  RequiredCourses.tsx    |     100 |      100 |     100 |     100 |                                                                            
   SemesterList.tsx       |    5.88 |        0 |       0 |    5.88 | 26-194                                                                     
   SemesterView.tsx       |    3.03 |        0 |       0 |    3.03 | 28-233                                                                     
   ViewCourseModal.tsx    |      90 |      100 |      75 |      90 | 31                                                                         
@@ -3329,5 +3391,5 @@ All files                |    37.7 |    23.55 |   25.71 |   37.75 |
 Test Suites: 10 failed, 1 passed, 11 total
 Tests:       28 failed, 9 passed, 37 total
 Snapshots:   0 total
-Time:        27.035 s
+Time:        18.221 s
 Ran all test suites.
