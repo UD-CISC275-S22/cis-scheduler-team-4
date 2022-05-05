@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (10.941 s)
+PASS src/test/CourseSearch.test.tsx (14.4 s)
 PASS src/test/App.test.tsx
   ● Console
 
@@ -221,9 +221,9 @@ PASS src/test/LandingPage.test.tsx
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                          
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
-All files                     |   57.92 |    51.17 |   59.48 |   58.25 |                                                            
- src                          |   61.11 |    35.29 |   58.33 |   61.11 |                                                            
-  App.tsx                     |   60.37 |    33.33 |   58.33 |   60.37 | 37,44-62,85-94,122-126,131-134                             
+All files                     |   58.38 |    51.49 |   59.89 |   58.72 |                                                            
+ src                          |   65.57 |     42.1 |   64.28 |   65.57 |                                                            
+  App.tsx                     |      65 |    41.17 |   64.28 |      65 | 37,44-62,85-94,137-141,146-149                             
   uri.ts                      |     100 |       50 |     100 |     100 | 2                                                          
  src/components               |   95.45 |    71.42 |     100 |   95.45 |                                                            
   LandingPage.tsx             |     100 |      100 |     100 |     100 |                                                            
@@ -272,5 +272,5 @@ All files                     |   57.92 |    51.17 |   59.48 |   58.25 |
 Test Suites: 12 passed, 12 total
 Tests:       54 passed, 54 total
 Snapshots:   0 total
-Time:        23.832 s
+Time:        31.466 s
 Ran all test suites.
