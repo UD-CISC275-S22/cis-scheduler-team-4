@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (9.515 s)
+PASS src/test/CourseSearch.test.tsx (10.941 s)
 PASS src/test/App.test.tsx
   ● Console
 
@@ -14,7 +14,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -24,7 +24,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -34,7 +34,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -44,7 +44,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -54,7 +54,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -64,7 +64,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -74,7 +74,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -84,7 +84,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -94,7 +94,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -104,7 +104,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
     console.log
       logged in
@@ -114,7 +114,7 @@ PASS src/test/App.test.tsx
     console.log
       null
 
-      at src/App.tsx:40:17
+      at src/App.tsx:42:17
 
 PASS src/test/SemesterView.test.tsx
 PASS src/test/ViewCourseModal.test.tsx
@@ -221,9 +221,9 @@ PASS src/test/LandingPage.test.tsx
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                          
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
-All files                     |   58.01 |    51.18 |   59.48 |   58.34 |                                                            
- src                          |   62.26 |    30.76 |   58.33 |   62.26 |                                                            
-  App.tsx                     |   61.53 |    27.27 |   58.33 |   61.53 | 42-60,83-92,120-124,129-132                                
+All files                     |   57.92 |    51.17 |   59.48 |   58.25 |                                                            
+ src                          |   61.11 |    35.29 |   58.33 |   61.11 |                                                            
+  App.tsx                     |   60.37 |    33.33 |   58.33 |   60.37 | 37,44-62,85-94,122-126,131-134                             
   uri.ts                      |     100 |       50 |     100 |     100 | 2                                                          
  src/components               |   95.45 |    71.42 |     100 |   95.45 |                                                            
   LandingPage.tsx             |     100 |      100 |     100 |     100 |                                                            
@@ -272,5 +272,5 @@ All files                     |   58.01 |    51.18 |   59.48 |   58.34 |
 Test Suites: 12 passed, 12 total
 Tests:       54 passed, 54 total
 Snapshots:   0 total
-Time:        21.483 s
+Time:        23.832 s
 Ran all test suites.
