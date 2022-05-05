@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (9.946 s)
+PASS src/test/CourseSearch.test.tsx (10.886 s)
 PASS src/test/App.test.tsx
 PASS src/test/SemesterView.test.tsx
 PASS src/test/ViewCourseModal.test.tsx
@@ -17,7 +17,7 @@ PASS src/test/LandingPage.test.tsx
 ------------------------------|---------|----------|---------|---------|-----------------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                         
 ------------------------------|---------|----------|---------|---------|-----------------------------------------------------------
-All files                     |   60.94 |    59.16 |    58.6 |   61.37 |                                                           
+All files                     |   61.01 |    59.16 |    58.6 |   61.45 |                                                           
  src                          |   57.69 |    33.33 |   42.85 |   57.69 |                                                           
   App.tsx                     |      56 |       25 |   42.85 |      56 | 26-35,48-52,57-60                                         
   uri.ts                      |     100 |       50 |     100 |     100 | 2                                                         
@@ -37,11 +37,11 @@ All files                     |   60.94 |    59.16 |    58.6 |   61.37 |
   PlanView.tsx                |   42.85 |       50 |   36.36 |   42.85 | 48-84                                                     
   Planner.tsx                 |     100 |      100 |     100 |     100 |                                                           
   ReqCoursePlanner.tsx        |     100 |      100 |     100 |     100 |                                                           
- src/components/planner/plan  |   71.31 |    61.84 |   70.76 |   71.31 |                                                           
+ src/components/planner/plan  |   71.53 |    61.84 |   70.76 |   71.53 |                                                           
   CourseList.tsx              |     100 |      100 |     100 |     100 |                                                           
   CourseView.tsx              |     100 |      100 |     100 |     100 |                                                           
   PlanEdit.tsx                |   23.07 |        0 |    12.5 |   23.07 | 19-24,37-81                                               
-  ReqCoursePlan.tsx           |    86.2 |     62.5 |     100 |    86.2 | 79,86,91,96                                               
+  ReqCoursePlan.tsx           |   86.66 |     62.5 |     100 |   86.66 | 77,81,85,89                                               
   SemesterList.tsx            |   88.23 |    94.44 |      80 |   88.23 | 97,139                                                    
   SemesterView.tsx            |   51.42 |    38.88 |    64.7 |   51.42 | 41-52,77,85-90,96-105,222-223                             
   YearList.tsx                |     100 |      100 |     100 |     100 |                                                           
@@ -67,5 +67,5 @@ All files                     |   60.94 |    59.16 |    58.6 |   61.37 |
 Test Suites: 12 passed, 12 total
 Tests:       54 passed, 54 total
 Snapshots:   0 total
-Time:        21.913 s
+Time:        24.167 s
 Ran all test suites.
