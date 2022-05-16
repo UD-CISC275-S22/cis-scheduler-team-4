@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (11.399 s)
+PASS src/test/CourseSearch.test.tsx (11.589 s)
 PASS src/test/App.test.tsx
   ● Console
 
@@ -389,7 +389,7 @@ All files                                          |   61.26 |    52.63 |   65.8
   CourseList.tsx                                   |     100 |      100 |     100 |     100 |                                                           
   CourseView.tsx                                   |     100 |      100 |     100 |     100 |                                                           
   PlanEdit.tsx                                     |   23.07 |        0 |    12.5 |   23.07 | 19-24,37-81                                               
-  ReqCoursePlan.tsx                                |   67.44 |    45.45 |     100 |   67.44 | 93,95,97,99,102,105,111-125                               
+  ReqCoursePlan.tsx                                |   67.44 |    45.45 |     100 |   67.44 | 94,96,98,100,105,110,116-130                              
   SemesterList.tsx                                 |   88.23 |      100 |      80 |   88.23 | 97,139                                                    
   SemesterView.tsx                                 |   51.42 |    38.88 |    64.7 |   51.42 | 41-52,77,85-90,96-105,222-223                             
   YearList.tsx                                     |     100 |      100 |     100 |     100 |                                                           
@@ -416,5 +416,5 @@ All files                                          |   61.26 |    52.63 |   65.8
 Test Suites: 12 passed, 12 total
 Tests:       66 passed, 66 total
 Snapshots:   0 total
-Time:        26.483 s
+Time:        25.691 s
 Ran all test suites.
