@@ -22,8 +22,6 @@ export const ReqCoursePlanner = ({ reqs }: { reqs: Requirement }) => {
             <h4>Breadth credits:</h4>
             <div
                 style={{
-                    // display: "flex",
-                    // flexDirection: "row",
                     textAlign: "left"
                 }}
             >

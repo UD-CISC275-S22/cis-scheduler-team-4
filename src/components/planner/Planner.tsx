@@ -20,14 +20,6 @@ export const Planner = ({
 }) => {
     const [reqs, setReqs] = useState<Requirement>(DefaultRequirement);
 
-    /* function addReq(req: string) {
-        setReqs([...reqs, req]);
-    }
-
-    function deleteReq(req: string) {
-        setReqs(reqs.filter((r: string): boolean => req !== r));
-    } */
-
     return (
         <div>
             <PlanList

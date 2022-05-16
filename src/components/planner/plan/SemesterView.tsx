@@ -61,16 +61,6 @@ export const SemesterView = ({
         });
     }
 
-    /* function editCourse(code: string, newCourse: string) {
-        editSemester(semester.id, {
-            ...semester,
-            courses: semester.courses.map((course: string): string =>
-                course === code ? newCourse : course
-            )
-        });
-    } */
-    //might be used later when we want the functionality of storing courses in some sidebar (refer to user stories)
-
     function courseExist(): boolean {
         if (modifiedCourses[courseInput] !== undefined) {
             //course exists in catalog
@@ -152,39 +142,6 @@ export const SemesterView = ({
                             addToPool={addToPool}
                         ></CourseList>
                     </div>
-                    {/*<Form.Group controlId="addCourse" className="mt-2">
-                        <Form.Label className="d-block">Add Course</Form.Label>
-                        <Form.Control
-                            placeholder="Enter course code (e.g. CISC 108)"
-                            value={courseInput}
-                            onChange={(
-                                event: React.ChangeEvent<HTMLInputElement>
-                            ) => setCourseInput(event.target.value)}
-                            style={{ display: "inline", width: "80%" }}
-                        ></Form.Control>
-                        {errorMsg ? (
-                            <div
-                                className="error-msg"
-                                style={{ fontSize: "0.9rem", color: "red" }}
-                            >
-                                *{errorMsg}
-                            </div>
-                        ) : null}
-                        <Button
-                            className="d-inline"
-                            type="submit"
-                            onClick={handleSubmit}
-                            style={{ width: "20%", float: "right" }}
-                        >
-                            Add
-                        </Button>
-                    </Form.Group>
-                    <Button
-                        className="btn-secondary m-1 mt-4"
-                        onClick={clearCourses}
-                    >
-                        Clear Courses
-                        </Button>*/}
                     <i style={{ marginLeft: "auto" }}>
                         Semester Credits: {semesterCreds(semester.courses)}
                     </i>
@@ -278,12 +235,6 @@ export const SemesterView = ({
                     >
                         Clear Courses
                     </Button>
-                    {/*<Button
-                        className="btn-danger m-1 mt-4"
-                        onClick={() => deleteSemester(semester.id)}
-                    >
-                        - Delete Semester
-                    /Button>*/}
                 </div>
             )}
         </div>

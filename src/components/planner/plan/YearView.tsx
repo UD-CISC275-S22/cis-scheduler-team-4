@@ -24,13 +24,6 @@ export const YearView = ({
     addToPool: (course: Course) => boolean;
     removeFromPool: (course: Course) => void;
 }) => {
-    /*const semesterToNumber: Record<string, number> = {
-        fall: 0,
-        winter: 1,
-        spring: 2,
-        summer: 3
-    };*/
-
     function addSemester(id: number) {
         editYear(year.id, {
             ...year,
