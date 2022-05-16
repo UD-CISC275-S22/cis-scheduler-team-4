@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (8.904 s)
+PASS src/test/CourseSearch.test.tsx (9.68 s)
 PASS src/test/App.test.tsx
   ● Console
 
@@ -117,8 +117,6 @@ PASS src/test/App.test.tsx
       at src/App.tsx:42:17
 
 PASS src/test/SemesterView.test.tsx
-PASS src/test/ViewCourseModal.test.tsx
-PASS src/test/PlanView.test.tsx
 PASS src/test/PlanList.test.tsx
   ● Console
 
@@ -212,6 +210,140 @@ PASS src/test/PlanList.test.tsx
 
       at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
 
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+    console.log
+      [
+        {
+          id: 0,
+          title: 'Default Plan',
+          description: 'Default Plan for CISC Majors',
+          years: [ [Object], [Object], [Object], [Object] ]
+        }
+      ]
+
+      at updateUserMetadataPlans (src/test/PlanList.test.tsx:21:13)
+
+PASS src/test/ViewCourseModal.test.tsx
+PASS src/test/PlanView.test.tsx
 PASS src/test/CourseList.test.tsx
 PASS src/test/SemesterList.test.tsx
 PASS src/test/CourseView.test.tsx
@@ -221,7 +353,7 @@ PASS src/test/LandingPage.test.tsx
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
 File                          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                          
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
-All files                     |    58.2 |    51.15 |   59.89 |   58.53 |                                                            
+All files                     |   59.77 |    53.13 |   64.46 |   60.12 |                                                            
  src                          |   63.49 |    38.09 |   64.28 |   63.49 |                                                            
   App.tsx                     |    62.9 |    36.84 |   64.28 |    62.9 | 37,44-65,88-97,140-144,149-152                             
   uri.ts                      |     100 |       50 |     100 |     100 | 2                                                          
@@ -236,20 +368,20 @@ All files                     |    58.2 |    51.15 |   59.89 |   58.53 |
   CourseListDisplay.tsx       |   84.61 |      100 |   66.66 |   84.61 | 64-76                                                      
   CourseSearch.tsx            |   75.96 |       82 |      85 |   75.72 | 97-100,128-130,145,149-151,183-185,194-196,201-207,237,256 
   CourseSearchForm.tsx        |   73.91 |       50 |   63.63 |   73.91 | 61-62,79-202                                               
- src/components/planner       |   59.74 |    39.47 |   59.37 |   60.52 |                                                            
+ src/components/planner       |   70.12 |    47.36 |   81.25 |   71.05 |                                                            
   PlanList.tsx                |   60.34 |    36.66 |   68.42 |    61.4 | 65-83,121,142,208-223,261                                  
-  PlanView.tsx                |   42.85 |       50 |   36.36 |   42.85 | 48-84                                                      
+  PlanView.tsx                |     100 |     87.5 |     100 |     100 | 48                                                         
   Planner.tsx                 |     100 |      100 |     100 |     100 |                                                            
   ReqCoursePlanner.tsx        |     100 |      100 |     100 |     100 |                                                            
- src/components/planner/plan  |   67.14 |    54.34 |   70.76 |   67.14 |                                                            
+ src/components/planner/plan  |   68.57 |     57.6 |   73.84 |   68.57 |                                                            
   CourseList.tsx              |     100 |      100 |     100 |     100 |                                                            
   CourseView.tsx              |     100 |      100 |     100 |     100 |                                                            
   PlanEdit.tsx                |   23.07 |        0 |    12.5 |   23.07 | 19-24,37-81                                                
   ReqCoursePlan.tsx           |    67.5 |       45 |     100 |    67.5 | 92,94,96,98,101,107-121                                    
-  SemesterList.tsx            |   88.23 |    94.44 |      80 |   88.23 | 97,139                                                     
+  SemesterList.tsx            |   88.23 |      100 |      80 |   88.23 | 97,139                                                     
   SemesterView.tsx            |   51.42 |    38.88 |    64.7 |   51.42 | 41-52,77,85-90,96-105,222-223                              
   YearList.tsx                |     100 |      100 |     100 |     100 |                                                            
-  YearView.tsx                |   78.94 |    33.33 |      75 |   78.94 | 47-63                                                      
+  YearView.tsx                |   89.47 |    66.66 |    87.5 |   89.47 | 59-63                                                      
  src/data                     |   17.21 |       10 |    9.52 |   17.79 |                                                            
   ParseDataFunctions.ts       |    9.82 |       10 |    9.52 |   10.18 | 91-111,135-155,167-231,236-285,295-349,354-388,395-407     
   TestData.ts                 |     100 |      100 |     100 |     100 |                                                            
@@ -270,7 +402,7 @@ All files                     |    58.2 |    51.15 |   59.89 |   58.53 |
 ------------------------------|---------|----------|---------|---------|------------------------------------------------------------
 
 Test Suites: 12 passed, 12 total
-Tests:       54 passed, 54 total
+Tests:       59 passed, 59 total
 Snapshots:   0 total
-Time:        20.711 s
+Time:        22.825 s
 Ran all test suites.
