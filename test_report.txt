@@ -2,7 +2,7 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
-PASS src/test/CourseSearch.test.tsx (11.109 s)
+PASS src/test/CourseSearch.test.tsx (10.784 s)
 PASS src/test/App.test.tsx
   ● Console
 
@@ -353,7 +353,7 @@ PASS src/test/LandingPage.test.tsx
 ---------------------------------------------------|---------|----------|---------|---------|------------------------------------------------------------
 File                                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                          
 ---------------------------------------------------|---------|----------|---------|---------|------------------------------------------------------------
-All files                                          |   61.26 |    52.63 |   65.89 |   62.13 |                                                            
+All files                                          |   61.37 |    52.63 |   65.89 |   62.24 |                                                            
  src                                               |   63.49 |    38.09 |   64.28 |   63.49 |                                                            
   App.tsx                                          |    62.9 |    36.84 |   64.28 |    62.9 | 37,44-65,88-97,140-144,149-152                             
   uri.ts                                           |     100 |       50 |     100 |     100 | 2                                                          
@@ -385,13 +385,13 @@ All files                                          |   61.26 |    52.63 |   65.8
   Planner.tsx                                      |     100 |      100 |     100 |     100 |                                                            
   ReqCoursePlanner.tsx                             |     100 |      100 |     100 |     100 |                                                            
   UploadDownloadPlans.tsx                          |   71.42 |       50 |      50 |   71.42 | 34-47                                                      
- src/components/planner/plan                       |   68.53 |    57.29 |   73.84 |   68.53 |                                                            
+ src/components/planner/plan                       |   68.96 |    57.29 |   73.84 |   68.96 |                                                            
   CourseList.tsx                                   |     100 |      100 |     100 |     100 |                                                            
   CourseView.tsx                                   |     100 |      100 |     100 |     100 |                                                            
   PlanEdit.tsx                                     |   23.07 |        0 |    12.5 |   23.07 | 19-24,37-81                                                
   ReqCoursePlan.tsx                                |   67.44 |    45.45 |     100 |   67.44 | 94,96,98,100,105,110,116-130                               
   SemesterList.tsx                                 |   88.23 |      100 |      80 |   88.23 | 97,139                                                     
-  SemesterView.tsx                                 |   51.42 |    38.88 |    64.7 |   51.42 | 41-52,77,85-90,96-105,222-223                              
+  SemesterView.tsx                                 |   54.05 |    38.88 |    64.7 |   54.05 | 41-52,77,85-90,102-111,228-229                             
   YearList.tsx                                     |     100 |      100 |     100 |     100 |                                                            
   YearView.tsx                                     |   89.47 |    66.66 |    87.5 |   89.47 | 59-63                                                      
  src/data                                          |   17.35 |       10 |    9.52 |   17.94 |                                                            
@@ -416,5 +416,5 @@ All files                                          |   61.26 |    52.63 |   65.8
 Test Suites: 12 passed, 12 total
 Tests:       66 passed, 66 total
 Snapshots:   0 total
-Time:        26.614 s
+Time:        25.516 s
 Ran all test suites.
