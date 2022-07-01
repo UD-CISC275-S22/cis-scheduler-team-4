@@ -31,7 +31,7 @@ export const LandingPage = () => {
                 <SubTitle>
                     by
                     <br />
-                    Aidan Tran, Ethan Chang, Colin Stetler
+                    Ethan Chang, Aidan Tran, Colin Stetler
                 </SubTitle>
             </Hero>
             <section style={{ backgroundColor: "var(--secondary-color)" }}>
@@ -52,7 +52,7 @@ export const LandingPage = () => {
                             Get Started!
                         </Button>
                     </Link>
-                    <h2>Freshman?</h2>
+                    <h2>Tips</h2>
                     <ul>
                         <li>
                             Click &quot;Get Started&quot; to begin editing your
